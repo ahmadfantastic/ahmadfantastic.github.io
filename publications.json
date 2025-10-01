@@ -1,0 +1,94 @@
+{
+  "publications": [
+    {
+      "id": "9",
+      "title": "LLM-Generated Design Problems for Higher-Order Thinking Assessment in Project-Based Learning",
+      "authors": ["Ahmad D. Suleiman", "Daqing Hou", "Maliha N. Raida"],
+      "venue": "Submitted to ACM SIGCSE Technical Symposium (TS), 2026. (Under Review)",
+      "year": 2026,
+      "thumbnail": "images/thumbs/design_problems.png",
+      "selected": 1,
+      "links": {"code": "https://github.com/ahmadfantastic/LLM-Design-Problems"}
+    },
+    {
+      "id": "8",
+      "title": "Systematic Literature Review on Project-Based Learning in Computing Education",
+      "authors": ["Ahmad D. Suleiman", "Daqing Hou", "Yu Liu", "Jan DeWaters", "David C. Shepherd", "Juliana G. De Souza"],
+      "venue": "ACM Transactions on Computing Education (TOCE)",
+      "year": 2025,
+      "thumbnail": "images/thumbs/review.png",
+      "selected": 1,
+      "links": {"pdf": "https://doi.org/10.1145/3743684"}
+    },
+    {
+      "id": "7",
+      "title": "Factors Impacting Faculty Adoption of Project-Based Learning in Computing Education: a Survey",
+      "authors": ["Ahmad D. Suleiman", "Yiming Tang", "Daqing Hou"],
+      "venue": "arXiv preprint (cs.SE)",
+      "year": 2025,
+      "thumbnail": "images/thumbs/adoption_factors.png",
+      "selected": 1,
+      "links": {"pdf": "https://doi.org/10.48550/arXiv.2507.18039"}
+    },
+    {
+      "id": "6",
+      "title": "An Empirical Study on the Capability of LLMs in Decomposing Bug Reports",
+      "authors": ["Zhiyuan Chen", "Vanessa Nava-Camal", "Ahmad D. Suleiman", "Yiming Tang", "Daqing Hou", "Weiyi Shang"],
+      "venue": "arXiv preprint (cs.SE)",
+      "year": 2025,
+      "thumbnail": "images/thumbs/bug.png",
+      "selected": 1,
+      "links": {"pdf": "https://doi.org/10.48550/arXiv.2504.20911"}
+    },
+    {
+      "id": "5",
+      "title": "Providing Technical Support to Sustain Student Motivation and Engagement in Software Engineering Project-Based Learning",
+      "authors": ["Ahmad D. Suleiman", "David Shepherd", "Jan DeWaters", "Yu Liu", "Daqing Hou"],
+      "venue": "2024 IEEE Frontiers in Education Conference (FIE)",
+      "year": 2024,
+      "thumbnail": "images/thumbs/technical-challanges.png",
+      "selected": 1,
+      "links": {"pdf": "https://doi.org/10.1109/FIE61694.2024.10893063"}
+    },
+    {
+      "id": "4",
+      "title": "An Exploratory Comparative Study on the Impacts of Technical Support on Student Successes in Computing Project-Based Learning",
+      "authors": ["Ahmad D. Suleiman", "Jan DeWaters", "Daqing Hou", "Yu Liu", "David Shepherd"],
+      "venue": "2024 IEEE Frontiers in Education Conference (FIE)",
+      "year": 2024,
+      "thumbnail": "images/thumbs/compartive_study.png",
+      "selected": 1,
+      "links": {"pdf": "https://doi.org/10.1109/FIE61694.2024.10893440"}
+    },
+    {
+      "id": "3",
+      "title": "The Importance of Project-Scale Scaffolding for Retention and Experience in Computing Courses",
+      "authors": ["Juliana G. De Souza", "Mikaila Flavell", "Ahmad D. Suleiman", "David Shepherd", "Jan DeWaters", "Mary M. Small", "Yu Liu", "Daqing Hou"],
+      "venue": "2023 IEEE Frontiers in Education Conference (FIE)",
+      "year": 2023,
+      "thumbnail": "images/thumbs/scaffolding.png",
+      "selected": 0,
+      "links": {"pdf": "https://doi.org/10.1109/FIE58773.2023.10343225"}
+    },
+    {
+      "id": "2",
+      "title": "Mapping Learning Objectives of Project-Based Undergraduate Software Engineering Courses to CC2020 Competency Model",
+      "authors": ["Ahmad D. Suleiman", "Daqing Hou", "Yu Liu", "Jan DeWaters", "Mary M. Small", "Juliana G. De Souza", "David Shepherd"],
+      "venue": "2023 IEEE Frontiers in Education Conference (FIE)",
+      "year": 2023,
+      "thumbnail": "images/thumbs/mapping.png",
+      "selected": 0,
+      "links": {"pdf": "https://doi.org/10.1109/FIE58773.2023.10342967"}
+    },
+    {
+      "id": "1",
+      "title": "A USSD based Cashless Revenue Collection System: Targeting the Informal Sector",
+      "authors": ["Hussein Zubairu", "Ahmad Daudu", "Stella Etuk", "Faiza Babakano", "Idris Muhammed"],
+      "venue": "Vol. 9; No 1",
+      "year": 2020,
+      "thumbnail": "images/thumbs/ussd_revenue.png",
+      "selected": 0,
+      "links": {"uri": "http://repository.futminna.edu.ng:8080/jspui/handle/123456789/11846"}
+    }
+  ]
+}
