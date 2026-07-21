@@ -1,14 +1,38 @@
 {
   "publications": [
     {
-      "id": "9",
-      "title": "LLM-Generated Design Problems for Higher-Order Thinking Assessment in Project-Based Learning",
+      "id": "12",
+      "title": "LLM-Generated Design Problems for Assessing Higher-Order Thinking in Project-Based Learning",
       "authors": ["Ahmad D. Suleiman", "Daqing Hou", "Maliha N. Raida"],
-      "venue": "Submitted to ACM SIGCSE Technical Symposium (TS), 2026. (Under Review)",
+      "venue": "ACM SIGCSE-V Global Computing Education Conference V.1, 2026. Accepted.",
       "year": 2026,
-      "thumbnail": "images/thumbs/design_problems.png",
+      "thumbnail": "images/thumbs/sigcse_virtual_design_problem.png",
       "selected": 1,
-      "links": {"code": "https://github.com/ahmadfantastic/LLM-Design-Problems"}
+      "links": {
+        "pdf": "https://doi.org/10.1145/3795867.3831014",
+        "arxiv": "https://arxiv.org/abs/2607.11032",
+        "code": "https://github.com/ahmadfantastic/LLM-Design-Problems"
+      }
+    },
+    {
+      "id": "11",
+      "title": "Adoption-Ready Project-Based Learning for Computing Education: The FORAP Framework and a Multi-Scale Project Portfolio",
+      "authors": ["Ahmad D. Suleiman", "Jan DeWaters", "David C. Shepherd", "Tolga Korkmaz", "Faraz Hussain", "Yu Liu", "Daqing Hou"],
+      "venue": "IEEE Frontiers in Education Conference (FIE), 2026. Accepted.",
+      "year": 2026,
+      "thumbnail": "images/thumbs/forap_framework_evaluation.png",
+      "selected": 1,
+      "links": {"arxiv": "https://arxiv.org/abs/2607.11129"}
+    },
+    {
+      "id": "10",
+      "title": "Do Privacy Policies Match with the Logs? An Empirical Study of Privacy Disclosure in Android Application Logs",
+      "authors": ["Zhiyuan Chen", "Laxmi J. Ahir", "Ahmad D. Suleiman", "Kaiwen Yao", "Yiming Tang", "Weiyi Shang", "Daqing Hou"],
+      "venue": "International Conference on Evaluation and Assessment in Software Engineering (EASE), 2026. Accepted.",
+      "year": 2026,
+      "thumbnail": "images/thumbs/privacy_logs_workflow.png",
+      "selected": 1,
+      "links": {"arxiv": "https://arxiv.org/abs/2604.18552"}
     },
     {
       "id": "8",
@@ -24,21 +48,44 @@
       "id": "7",
       "title": "Factors Impacting Faculty Adoption of Project-Based Learning in Computing Education: a Survey",
       "authors": ["Ahmad D. Suleiman", "Yiming Tang", "Daqing Hou"],
-      "venue": "arXiv preprint (cs.SE)",
+      "venue": "IEEE Frontiers in Education Conference (FIE), 2025.",
       "year": 2025,
       "thumbnail": "images/thumbs/adoption_factors.png",
       "selected": 1,
-      "links": {"pdf": "https://doi.org/10.48550/arXiv.2507.18039"}
+      "links": {
+        "pdf": "https://doi.org/10.1109/FIE63693.2025.11328475",
+        "arxiv": "https://arxiv.org/abs/2507.18039"
+      }
     },
     {
       "id": "6",
       "title": "An Empirical Study on the Capability of LLMs in Decomposing Bug Reports",
       "authors": ["Zhiyuan Chen", "Vanessa Nava-Camal", "Ahmad D. Suleiman", "Yiming Tang", "Daqing Hou", "Weiyi Shang"],
-      "venue": "arXiv preprint (cs.SE)",
-      "year": 2025,
+      "venue": "Science of Computer Programming, 2026. Under review.",
+      "year": 2026,
       "thumbnail": "images/thumbs/bug.png",
-      "selected": 1,
-      "links": {"pdf": "https://doi.org/10.48550/arXiv.2504.20911"}
+      "selected": 0,
+      "links": {"arxiv": "https://arxiv.org/abs/2504.20911"}
+    },
+    {
+      "id": "13",
+      "title": "Revisiting Android Fault Diagnosis Through the Lens of Third-Party Library Logs: An Empirical Study",
+      "authors": ["Zhiyuan Chen", "Raj V. Parmar", "Ahmad D. Suleiman", "Dongjie Zhu", "Kaiwen Yao", "Yiming Tang", "Weiyi Shang", "Daqing Hou"],
+      "venue": "ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM), 2026. Under review.",
+      "year": 2026,
+      "thumbnail": "images/thumbs/android_fault_logs.png",
+      "selected": 0,
+      "links": {}
+    },
+    {
+      "id": "12b",
+      "title": "Integrating Continuous Integration into Software Engineering Education Using GitHub Actions",
+      "authors": ["Yiming Tang", "Zhiyuan Chen", "Ahmad D. Suleiman", "Daqing Hou", "Weiyi Shang"],
+      "venue": "IEEE Software, 2025. Under review.",
+      "year": 2025,
+      "thumbnail": "images/thumbs/mapping.png",
+      "selected": 0,
+      "links": {}
     },
     {
       "id": "5",
@@ -88,7 +135,7 @@
       "year": 2020,
       "thumbnail": "images/thumbs/ussd_revenue.png",
       "selected": 0,
-      "links": {"uri": "http://repository.futminna.edu.ng:8080/jspui/handle/123456789/11846"}
+      "links": {"project": "http://repository.futminna.edu.ng:8080/jspui/handle/123456789/11846"}
     }
   ]
 }

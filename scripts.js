@@ -208,13 +208,26 @@ function createPublicationElement(publication) {
     if (publication.links.pdf) {
       const pdfLink = document.createElement('a');
       pdfLink.href = publication.links.pdf;
-      pdfLink.textContent = '[PDF]';
+      pdfLink.target = '_blank';
+      pdfLink.rel = 'noopener noreferrer';
+      pdfLink.textContent = publication.links.pdf.includes('doi.org') ? '[DOI]' : '[PDF]';
       links.appendChild(pdfLink);
     }
     
+    if (publication.links.arxiv) {
+      const arxivLink = document.createElement('a');
+      arxivLink.href = publication.links.arxiv;
+      arxivLink.target = '_blank';
+      arxivLink.rel = 'noopener noreferrer';
+      arxivLink.textContent = '[arXiv]';
+      links.appendChild(arxivLink);
+    }
+
     if (publication.links.code) {
       const codeLink = document.createElement('a');
       codeLink.href = publication.links.code;
+      codeLink.target = '_blank';
+      codeLink.rel = 'noopener noreferrer';
       codeLink.textContent = '[Code]';
       links.appendChild(codeLink);
     }
@@ -222,11 +235,15 @@ function createPublicationElement(publication) {
     if (publication.links.project) {
       const projectLink = document.createElement('a');
       projectLink.href = publication.links.project;
-      projectLink.textContent = '[Project Page]';
+      projectLink.target = '_blank';
+      projectLink.rel = 'noopener noreferrer';
+      projectLink.textContent = publication.links.project.includes('arxiv.org') ? '[arXiv]' : '[Project Page]';
       links.appendChild(projectLink);
     }
     
-    content.appendChild(links);
+    if (links.children.length > 0) {
+      content.appendChild(links);
+    }
   }
   
   // Assemble the publication item
