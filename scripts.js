@@ -67,10 +67,12 @@ document.addEventListener('DOMContentLoaded', function() {
       // Normalize index.html and root
       if (href === currentPath || (href === 'index.html' && currentPath === '')) {
         a.classList.add('nav-active');
+        a.setAttribute('aria-current', 'page');
       }
       // Also handle anchors like index.html#about
       if (href && href.split('#')[0] === currentPath) {
         a.classList.add('nav-active');
+        a.setAttribute('aria-current', 'page');
       }
     });
   } catch (e) {
