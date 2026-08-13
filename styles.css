@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 300 600;
+  font-display: swap;
+  src: url('assets/fonts/merriweather-latin.woff2') format('woff2');
+}
+
 :root {
   --bg-color: #fff;
   --text-color: #2d3748;
@@ -133,8 +141,48 @@ nav a.nav-active, nav a.nav-active:hover {
   margin: 1.2rem 0;
 }
 
-.social-links-header a i {
+.social-icon {
+  display: inline-block;
+  height: 1em;
   margin-right: 0.4rem;
+  vertical-align: -0.125em;
+  background-color: currentColor;
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: contain;
+}
+
+.icon-graduation-cap {
+  width: 1.25em;
+  -webkit-mask-image: url('assets/icons/graduation-cap.svg');
+  mask-image: url('assets/icons/graduation-cap.svg');
+}
+
+.icon-github {
+  width: 0.969em;
+  -webkit-mask-image: url('assets/icons/github.svg');
+  mask-image: url('assets/icons/github.svg');
+}
+
+.icon-linkedin {
+  width: 0.875em;
+  -webkit-mask-image: url('assets/icons/linkedin.svg');
+  mask-image: url('assets/icons/linkedin.svg');
+}
+
+.icon-envelope {
+  width: 1em;
+  -webkit-mask-image: url('assets/icons/envelope.svg');
+  mask-image: url('assets/icons/envelope.svg');
+}
+
+.icon-file {
+  width: 0.75em;
+  -webkit-mask-image: url('assets/icons/file.svg');
+  mask-image: url('assets/icons/file.svg');
 }
 
 /* Unified animation for elements (not sections) */
@@ -181,6 +229,10 @@ section {
   margin: 0 0 0.7rem;
   color: var(--accent-color);
   font-weight: 600;
+  font-size: 1em;
+  padding: 0;
+  border: 0;
+  letter-spacing: normal;
 }
 
 .availability-options {
@@ -718,5 +770,19 @@ strong {
 
   .entries-list .entry-desc {
     padding-left: 1rem; /* restore some indent for readability on mobile */
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
