@@ -1,6 +1,16 @@
 {
   "publications": [
     {
+      "id": "6",
+      "title": "An Empirical Study on the Capability of LLMs in Decomposing Bug Reports",
+      "authors": ["Zhiyuan Chen", "Vanessa Nava-Camal", "Ahmad D. Suleiman", "Yiming Tang", "Daqing Hou", "Weiyi Shang"],
+      "venue": "Science of Computer Programming, 2026. Accepted.",
+      "year": 2026,
+      "thumbnail": "images/thumbs/bug.png",
+      "selected": 1,
+      "links": {"arxiv": "https://arxiv.org/abs/2504.20911"}
+    },
+    {
       "id": "12",
       "title": "LLM-Generated Design Problems for Assessing Higher-Order Thinking in Project-Based Learning",
       "authors": ["Ahmad D. Suleiman", "Daqing Hou", "Maliha N. Raida"],
@@ -58,16 +68,6 @@
       }
     },
     {
-      "id": "6",
-      "title": "An Empirical Study on the Capability of LLMs in Decomposing Bug Reports",
-      "authors": ["Zhiyuan Chen", "Vanessa Nava-Camal", "Ahmad D. Suleiman", "Yiming Tang", "Daqing Hou", "Weiyi Shang"],
-      "venue": "Science of Computer Programming, 2026. Under review.",
-      "year": 2026,
-      "thumbnail": "images/thumbs/bug.png",
-      "selected": 0,
-      "links": {"arxiv": "https://arxiv.org/abs/2504.20911"}
-    },
-    {
       "id": "13",
       "title": "Revisiting Android Fault Diagnosis Through the Lens of Third-Party Library Logs: An Empirical Study",
       "authors": ["Zhiyuan Chen", "Raj V. Parmar", "Ahmad D. Suleiman", "Dongjie Zhu", "Kaiwen Yao", "Yiming Tang", "Weiyi Shang", "Daqing Hou"],
@@ -81,8 +81,8 @@
       "id": "12b",
       "title": "Integrating Continuous Integration into Software Engineering Education Using GitHub Actions",
       "authors": ["Yiming Tang", "Zhiyuan Chen", "Ahmad D. Suleiman", "Daqing Hou", "Weiyi Shang"],
-      "venue": "IEEE Software, 2025. Under review.",
-      "year": 2025,
+      "venue": "IEEE Software, 2026. Under review.",
+      "year": 2026,
       "thumbnail": "images/thumbs/mapping.png",
       "selected": 0,
       "links": {}
