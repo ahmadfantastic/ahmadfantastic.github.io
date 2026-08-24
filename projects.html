@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="projects-document">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
     <meta name="description" content="Explore research and software projects by Ahmad D. Suleiman spanning project-based learning, applied LLMs, empirical software engineering, HPC, and web systems.">
     <meta name="keywords" content="Ahmad D. Suleiman projects, research projects, software engineering, project-based learning, applied LLMs, HPC, web systems">
     <meta name="author" content="Ahmad D. Suleiman">
-    <meta name="robots" content="noindex, follow">
+    <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://ahmadfantastic.github.io/projects.html">
     <link rel="icon" href="images/favicon-32.png" type="image/png" sizes="32x32">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png" sizes="180x180">
@@ -35,9 +35,9 @@
     <meta name="twitter:image:alt" content="Ahmad D. Suleiman, computing education and empirical software engineering researcher">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;500;600&amp;display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="styles.css?v=20260721-2">
+    <link rel="stylesheet" href="styles.css?v=20260823-1">
 </head>
-<body>
+<body class="projects-page">
     <header>
         <div class="header-content">
             <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,21 +67,294 @@
         </div>
     </header>
 
-    <main>
-        <section id="projects">
-            <h2>Projects</h2>
-            <p>TODO</p>
+    <main class="projects-main">
+        <section aria-labelledby="projects-title">
+            <h2 id="projects-title">Projects</h2>
+            <p>Selected research, professional, personal, and course projects.</p>
+        </section>
+
+        <section id="research-systems" class="project-section">
+            <div class="project-section-heading">
+                <h2>Research software &amp; infrastructure</h2>
+                <p>Systems that support computing-education research, empirical software engineering, and computational experiments.</p>
+            </div>
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">Research program · Co-developer</p>
+                        <h3>FORAP Research Program</h3>
+                        <p>Co-developed an expert-validated framework and a portfolio of adoption-ready project-based learning packages used to help instructors adapt authentic computing projects across institutions.</p>
+                        <ul class="project-tags" aria-label="Technologies and topics"><li>PjBL</li><li>Framework design</li><li>Multi-institution research</li></ul>
+                        <div class="project-links"><a href="https://forap-docs.github.io/" target="_blank" rel="noopener noreferrer">Project site <i class="fas fa-external-link-alt" aria-hidden="true"></i></a><button class="project-gallery-link" type="button" data-gallery="images/thumbs/forap_framework_evaluation.png" data-gallery-alt="FORAP framework evaluation workflow" aria-label="View FORAP project image">View image <i class="far fa-images" aria-hidden="true"></i></button></div>
+                    </div>
+                </article>
+
+                <article class="project-card compact-project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">Research software · Lead developer</p>
+                        <h3>LLM-Assisted Computing Education Tools</h3>
+                        <p>Built tools for generating design problems, project scaffolds, tasks, rubrics, sample solutions, and evaluation workflows using large language models and retrieval-assisted pipelines.</p>
+                        <ul class="project-tags" aria-label="Technologies"><li>Flask</li><li>Vue</li><li>PostgreSQL</li><li>OpenAI &amp; Gemini</li></ul>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">Empirical software engineering · Research contributor</p>
+                        <h3>Android Log Analysis Research Tooling</h3>
+                        <p>Contributed data-processing and analysis workflows for studying privacy disclosure, third-party library logs, fault diagnosis, and LLM-assisted bug-report decomposition in Android systems.</p>
+                        <ul class="project-tags" aria-label="Technologies and topics"><li>Android logs</li><li>Python</li><li>LLMs</li><li>Empirical analysis</li></ul>
+                        <div class="project-links"><a href="research.html">Related research</a><button class="project-gallery-link" type="button" data-gallery="images/thumbs/privacy_logs_workflow.png" data-gallery-alt="Workflow for analyzing privacy disclosures and Android application logs" aria-label="View Android log analysis project image">View image <i class="far fa-images" aria-hidden="true"></i></button></div>
+                    </div>
+                </article>
+
+                <article class="project-card compact-project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">Research support system · Lead developer</p>
+                        <h3>RandomQuiz</h3>
+                        <p>Built an assessment platform with randomized problem slots, public attempts, rubric-based grading, timelines, CSV workflows, correlations, agreement analysis, and dashboards.</p>
+                        <ul class="project-tags" aria-label="Technologies"><li>Django REST</li><li>React</li><li>Vite</li><li>Analytics</li></ul>
+                        <div class="project-links"><a href="https://github.com/ahmadfantastic/RandomQuiz" target="_blank" rel="noopener noreferrer">Public code <i class="fab fa-github" aria-hidden="true"></i></a></div>
+                    </div>
+                </article>
+
+                <article class="project-card compact-project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">Research support utility · Lead developer</p>
+                        <h3>Exam Handwriting Extractor</h3>
+                        <p>Created a Python utility that uses Gemini to extract handwritten exam responses and rubric selections from uploaded PDFs into structured text outputs.</p>
+                        <ul class="project-tags" aria-label="Technologies"><li>Python</li><li>Gemini API</li><li>PDF processing</li></ul>
+                        <div class="project-links"><a href="https://github.com/ahmadfantastic/ExamHandWritingExtractor" target="_blank" rel="noopener noreferrer">Public code <i class="fab fa-github" aria-hidden="true"></i></a></div>
+                    </div>
+                </article>
+
+                <article class="project-card compact-project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">Research infrastructure · System administrator</p>
+                        <h3>OpenHPC Research Cluster</h3>
+                        <p>Configured and maintained a 20-node Red Hat OpenHPC cluster with 640 CPU cores, job scheduling, distributed execution, and operational monitoring for research simulations.</p>
+                        <ul class="project-tags" aria-label="Technologies"><li>Red Hat OpenHPC</li><li>Slurm</li><li>OpenMPI</li><li>Prometheus</li><li>Grafana</li></ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="professional-systems" class="project-section">
+            <div class="project-section-heading">
+                <h2>Professional systems</h2>
+                <p>Client, production, and field systems developed through TTF Ltd., Legalfit, DiceBox Innovation Hub, and IHS Towers.</p>
+            </div>
+            <div class="project-grid">
+                <article class="project-card compact-project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">TTF Ltd. · Team lead</p>
+                        <h3>Lagos State Safety Registration Portal</h3>
+                        <p>Led a three-engineer team building the public login and registration portal, payment platform, evidence review, physical-verification workflows, searchable records, the administrative dashboard, and customized certificate generation.</p>
+                        <ul class="project-tags" aria-label="Technologies"><li>Laravel</li><li>PHP</li><li>MySQL</li><li>Bootstrap</li></ul>
+                        <div class="project-links"><a href="https://lasgsafetyregistration.com/" target="_blank" rel="noopener noreferrer">Project site <i class="fas fa-external-link-alt" aria-hidden="true"></i></a></div>
+                    </div>
+                </article>
+
+                <article class="project-card compact-project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">TTF Ltd. · Team lead</p>
+                        <h3>Sterling Bank HRMS</h3>
+                        <p>Led development of a role-based human-resource and loan-management system with agent records, performance views, applications, transactions, disbursement, and administrative analytics.</p>
+                        <ul class="project-tags" aria-label="Technologies"><li>Java</li><li>Spring</li><li>MySQL</li></ul>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">TTF Ltd. · Team lead</p>
+                        <h3>Nuli Lounge Ordering System</h3>
+                        <p>Led a three-engineer team delivering customer ordering and back-office operations for menus, multiple locations, scheduled orders, payments, delivery tracking, and administration.</p>
+                        <ul class="project-tags" aria-label="Technologies"><li>Laravel</li><li>PHP</li><li>MySQL</li><li>Payments</li></ul>
+                        <div class="project-links"><button class="project-gallery-link" type="button" data-gallery="images/projects/nuli-menu.png|images/projects/nuli-delivery.png" data-gallery-alt="Nuli Lounge Ordering System" aria-label="View Nuli Lounge Ordering System images">View images <i class="far fa-images" aria-hidden="true"></i></button></div>
+                    </div>
+                </article>
+
+                <article class="project-card compact-project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">Legalfit LLC · Software engineer</p>
+                        <h3>Law-Firm CMS &amp; Website Templates</h3>
+                        <p>Developed and optimized content-management features, improved Core Web Vitals, and implemented six responsive law-firm website templates from Adobe XD designs.</p>
+                        <ul class="project-tags" aria-label="Technologies"><li>Django</li><li>Vue.js</li><li>PostgreSQL</li><li>AWS</li><li>Jinja</li></ul>
+                        <div class="project-links" aria-label="Representative Legalfit website examples"><a href="https://www.chhlawpc.com/" target="_blank" rel="noopener noreferrer">Chenault Hammond <i class="fas fa-external-link-alt" aria-hidden="true"></i></a><a href="https://www.florandmediation.com/" target="_blank" rel="noopener noreferrer">Florand Mediation <i class="fas fa-external-link-alt" aria-hidden="true"></i></a></div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">DiceBox Innovation Hub · Team lead</p>
+                        <h3>Biometric Student Attendance System</h3>
+                        <p>Led a two-engineer team building course and student management, fingerprint enrollment and verification, face recognition, attendance records, and administrative analytics.</p>
+                        <ul class="project-tags" aria-label="Technologies"><li>JavaFX</li><li>Spring Boot</li><li>MySQL &amp; PostgreSQL</li><li>Biometrics</li></ul>
+                        <div class="project-links"><button class="project-gallery-link" type="button" data-gallery="images/projects/attendance-analytics.png|images/projects/attendance-admin-graph.png" data-gallery-alt="Biometric Student Attendance System analytics" aria-label="View Biometric Student Attendance System images">View images <i class="far fa-images" aria-hidden="true"></i></button></div>
+                    </div>
+                </article>
+
+                <article class="project-card compact-project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">DiceBox Innovation Hub · Lead developer</p>
+                        <h3>Android QR POS &amp; Inventory System</h3>
+                        <p>Created a mobile point-of-sale and inventory application for products, QR/barcode scanning, carts, sales records, stock tracking, and PDF output.</p>
+                        <ul class="project-tags" aria-label="Technologies"><li>Android</li><li>Java</li><li>Room</li><li>QR/barcodes</li></ul>
+                    </div>
+                </article>
+
+                <article class="project-card compact-project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">DiceBox Innovation Hub · Lead developer</p>
+                        <h3>QR Event Attendance</h3>
+                        <p>Built an event check-in application that scans a registration QR code, validates the attendee, and records admission or attendance.</p>
+                        <ul class="project-tags" aria-label="Technologies"><li>Android</li><li>Kotlin &amp; Java</li><li>Firebase</li><li>QR codes</li></ul>
+                    </div>
+                </article>
+
+                <article class="project-card compact-project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">IHS Towers · Internship project</p>
+                        <h3>Offline Site-Survey Data Collection</h3>
+                        <p>Developed an Android field-survey application that captures records without connectivity and synchronizes them later for centralized reporting.</p>
+                        <ul class="project-tags" aria-label="Technologies"><li>Android</li><li>Java</li><li>Kotlin</li><li>Offline sync</li></ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="personal-systems" class="project-section">
+            <div class="project-section-heading">
+                <h2>Personal &amp; applied systems</h2>
+                <p>Independent, funded, research, and scholarship projects spanning education, agriculture, public administration, and mobile applications.</p>
+            </div>
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">Research software · System implementation</p>
+                        <h3>USSD Cashless Revenue Collection System</h3>
+                        <p>Implemented a motorist-focused USSD and e-wallet prototype supporting enrollment, payment points, checkpoints, top-ups, validation, reporting, and administrative dashboards.</p>
+                        <ul class="project-tags" aria-label="Technologies"><li>Java</li><li>Android</li><li>USSD</li><li>Tomcat</li><li>MySQL</li></ul>
+                        <div class="project-links"><a href="https://doi.org/10.26634/jit.9.1.17288" target="_blank" rel="noopener noreferrer">Paper <i class="fas fa-external-link-alt" aria-hidden="true"></i></a><button class="project-gallery-link" type="button" data-gallery="images/thumbs/ussd_revenue.png" data-gallery-alt="Administration dashboard for the USSD cashless revenue collection system" aria-label="View USSD revenue system project image">View image <i class="far fa-images" aria-hidden="true"></i></button></div>
+                    </div>
+                </article>
+
+                <article class="project-card compact-project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">Personal project · Team lead</p>
+                        <h3>Gidangona Poultry Platform</h3>
+                        <p>Led development of a combined Android and web platform for poultry management and e-commerce, covering production records, feed and water tracking, analytics, veterinary access, products, and orders.</p>
+                        <ul class="project-tags" aria-label="Technologies and platforms"><li>Android</li><li>Java</li><li>Web</li><li>PHP</li><li>MySQL</li></ul>
+                    </div>
+                </article>
+
+                <article class="project-card compact-project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">TETFund-funded project · Lead developer</p>
+                        <h3>TASUED Maths</h3>
+                        <p>Built an Android application that helps students learn mathematics through instructional topics, worked examples, exercises, answer explanations, practice, progress tracking, and speech-enabled interaction.</p>
+                        <ul class="project-tags" aria-label="Technologies"><li>Android</li><li>Java</li><li>Room</li><li>Text-to-speech</li></ul>
+                    </div>
+                </article>
+
+                <article class="project-card compact-project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">Field operations · Mobile and desktop system</p>
+                        <h3>RBI Fire-Station Reporting System</h3>
+                        <p>Built an Android application for reporting from fire stations, paired with a Java desktop interface for administrators to review and manage submissions.</p>
+                        <ul class="project-tags" aria-label="Technologies and platforms"><li>Android</li><li>Java</li><li>Mobile reporting</li><li>Desktop administration</li></ul>
+                    </div>
+                </article>
+
+                <article class="project-card compact-project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">Final-year research project · Lead developer</p>
+                        <h3>FUT Minna Campus Information Chatbot</h3>
+                        <p>Developed an Android conversational assistant and Java backend for campus FAQs, broadcasts, polls, offline history, authentication, and real-time or offline messaging.</p>
+                        <ul class="project-tags" aria-label="Technologies"><li>Spring Boot</li><li>WebSocket</li><li>Hibernate Search</li><li>Android</li><li>Room</li></ul>
+                        <div class="project-links"><a href="https://github.com/ahmadfantastic/FUT-Minna-Chatbot-Android" target="_blank" rel="noopener noreferrer">Android <i class="fab fa-github" aria-hidden="true"></i></a><a href="https://github.com/ahmadfantastic/FUT-Minna-Chatbot-Server" target="_blank" rel="noopener noreferrer">Server <i class="fab fa-github" aria-hidden="true"></i></a></div>
+                    </div>
+                </article>
+
+                <article class="project-card compact-project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">Google Africa Challenge Scholarship project</p>
+                        <h3>Journal App</h3>
+                        <p>Built an Android journaling application for the 7DaysOfCodeChallenge with Google Sign-In, local persistence, lifecycle-aware state, and create, update, and list workflows.</p>
+                        <ul class="project-tags" aria-label="Technologies"><li>Android</li><li>Java</li><li>Room</li><li>ViewModel</li><li>LiveData</li></ul>
+                        <div class="project-links"><a href="https://github.com/ahmadfantastic/Journal-App" target="_blank" rel="noopener noreferrer">Public code <i class="fab fa-github" aria-hidden="true"></i></a></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="course-projects" class="project-section">
+            <div class="project-section-heading">
+                <h2>Course Projects</h2>
+                <p>Substantial projects completed in courses I attended. Reusable teaching packages and student assignments I supervised are intentionally excluded.</p>
+            </div>
+            <div class="project-grid">
+                <article class="project-card compact-project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">Deep learning · Team project lead</p>
+                        <h3>Automated Pediatric Ear Segmentation &amp; Orientation</h3>
+                        <p>Led a pipeline combining YOLOv5 region detection, a 55-landmark convolutional model, and landmark-based orientation for pediatric ear images.</p>
+                        <ul class="project-tags" aria-label="Technologies"><li>Python</li><li>YOLOv5</li><li>CNNs</li><li>Computer vision</li></ul>
+                    </div>
+                </article>
+
+                <article class="project-card compact-project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">Computer networks · Team project lead</p>
+                        <h3>DV-Hop Localization Under Regular &amp; Critical Conditions</h3>
+                        <p>Led simulation of wireless-sensor localization under normal operation and progressive node-loss conditions, exploring robustness as anchor availability changed.</p>
+                        <ul class="project-tags" aria-label="Technologies"><li>ns-3</li><li>MATLAB</li><li>Wireless sensor networks</li></ul>
+                    </div>
+                </article>
+
+                <article class="project-card compact-project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">Artificial intelligence &amp; cyberinfrastructure</p>
+                        <h3>Chess Checkmate Puzzle Solver</h3>
+                        <p>Led the original team solver, then extended it individually at RIT to evaluate CPU and GPU parallelization for minimax search with alpha-beta pruning and search optimizations.</p>
+                        <ul class="project-tags" aria-label="Technologies"><li>Python</li><li>Minimax</li><li>Alpha-beta pruning</li><li>Parallel computing</li></ul>
+                        <div class="project-links"><a href="https://github.com/ahmadfantastic/chess_checkmate_puzzle_solver" target="_blank" rel="noopener noreferrer">Public code <i class="fab fa-github" aria-hidden="true"></i></a></div>
+                    </div>
+                </article>
+
+                <article class="project-card compact-project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">Human-computer interaction · Team project lead</p>
+                        <h3>Camera Applications for Visually Impaired Users</h3>
+                        <p>Led two voice-guided desktop applications: one assists selfie positioning and the other guides camera movement to place a detected object at a requested image location.</p>
+                        <ul class="project-tags" aria-label="Technologies"><li>Python</li><li>PySide6</li><li>MediaPipe</li><li>YOLOv8</li><li>Speech interfaces</li></ul>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card-body">
+                        <p class="project-context">Computer vision · Individual project</p>
+                        <h3>CIFAR Image Classifier</h3>
+                        <p>Implemented and evaluated a PyTorch convolutional network with training and validation splits, parameter comparisons, checkpoints, learning curves, and prediction visualizations.</p>
+                        <ul class="project-tags" aria-label="Technologies"><li>PyTorch</li><li>CNNs</li><li>CIFAR</li><li>Experiment tracking</li></ul>
+                        <div class="project-links"><button class="project-gallery-link" type="button" data-gallery="images/projects/cifar-classification-samples.png" data-gallery-alt="Grid of correctly classified CIFAR images including an airplane, automobile, bird, cat, deer, dog, frog, and horse" aria-label="View CIFAR Image Classifier sample grid">View image <i class="far fa-images" aria-hidden="true"></i></button></div>
+                    </div>
+                </article>
+            </div>
         </section>
     </main>
 
     <footer>
-    <p>Last updated: July 21, 2026. <a href="https://ahmadfantastic.github.io">Ahmad D. Suleiman</a></p>
+    <p>Last updated: August 23, 2026. <a href="https://ahmadfantastic.github.io">Ahmad D. Suleiman</a></p>
     </footer>
-    <div id="imageModal" class="modal">
+    <div id="imageModal" class="modal" role="dialog" aria-modal="true" aria-label="Project image gallery">
         <button class="modal-close" type="button" onclick="closeModal()" aria-label="Close image preview">&times;</button>
+        <button class="modal-nav modal-prev" type="button" onclick="changeGalleryImage(-1)" aria-label="Previous image">&#10094;</button>
         <img class="modal-content" id="modalImage" alt="">
+        <button class="modal-nav modal-next" type="button" onclick="changeGalleryImage(1)" aria-label="Next image">&#10095;</button>
+        <p class="modal-counter" id="modalCounter" aria-live="polite"></p>
     </div>
-    <script src="scripts.js"></script>
+    <script src="scripts.js?v=20260822-1"></script>
     <script data-goatcounter="https://ahmadfantastic.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 </body>
