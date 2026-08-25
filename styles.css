@@ -442,6 +442,10 @@ section {
   padding-left: 0; /* no extra left padding; spacing comes from grid gap */
 }
 
+.entries-list .entry-desc-undated {
+  grid-column: 1 / 3;
+}
+
 .entry-desc {
   padding-left: 1rem;
   flex: 1;
