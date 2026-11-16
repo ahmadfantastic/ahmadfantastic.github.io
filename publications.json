@@ -4,7 +4,7 @@
       "id": "12",
       "title": "LLM-Generated Design Problems for Assessing Higher-Order Thinking in Project-Based Learning",
       "authors": ["Ahmad D. Suleiman", "Daqing Hou", "Maliha N. Raida"],
-      "venue": "ACM SIGCSE-V Global Computing Education Conference V.1, 2026. Accepted.",
+      "venue": "Proceedings of the 2nd ACM Virtual Global Computing Education Conference V.1 (SIGCSE Virtual), 2026, pp. 469–475.",
       "year": 2026,
       "thumbnail": "images/thumbs/sigcse_virtual_design_problem.png",
       "selected": 1,
@@ -69,6 +69,16 @@
         "pdf": "https://doi.org/10.1109/FIE63693.2025.11328475",
         "arxiv": "https://arxiv.org/abs/2507.18039"
       }
+    },
+    {
+      "id": "14",
+      "title": "An Expert Evaluation of FORAP: A Framework for Organizing Reusable and Adaptable PjBL Projects",
+      "authors": ["Ahmad D. Suleiman", "Daqing Hou"],
+      "venue": "2026 manuscript. Under review at ICSE (SEET track).",
+      "year": 2026,
+      "thumbnail": "images/projects/forap-evaluation-methodology.jpeg",
+      "selected": 0,
+      "links": {}
     },
     {
       "id": "13",
